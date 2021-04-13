@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207975725068",
+    "project_id": "elena2-7e954",
+    "storage_bucket": "elena2-7e954.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207975725068:android:c656b79610c5b5d5a19629",
+        "android_client_info": {
+          "package_name": "com.example.elena2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207975725068-gilonhlvg29n09g6fmrffje496drn4pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAU9w40jDY7ECqe4TDUJ574IJ-g4lpFjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207975725068-gilonhlvg29n09g6fmrffje496drn4pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

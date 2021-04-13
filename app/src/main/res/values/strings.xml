@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Elena2</string>
+    <string name="access_token">pk.eyJ1IjoiamFpbmRqMzAyIiwiYSI6ImNrbjV6bzRsdTAzYnoydm56dDYwYXZ2M3IifQ.wGETTPvEn_DOqH01JNetgQ</string>
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="menu_map_style_streets">Streets</string>
+    <string name="menu_map_style_dark">Dark</string>
+    <string name="menu_map_style_light">Light</string>
+    <string name="menu_map_style_outdoors">Outdoors</string>
+    <string name="menu_map_style_satellite">Satellite</string>
+    <string name="menu_map_style_satellite_streets">Satellite streets</string>
+
+    <!--Move map instruction for toast-->
+    <string name="move_map_instruction">Move map to place\nmarker at desired location</string>
+
+    <!--Zoom in and out map instruction for toast-->
+    <string name="zoom_map_in_and_out_instruction">Zoom in and out to see cluster numbers change</string>
+
+    <!--Tap on feature box instruction-->
+    <string name="tap_on_feature_box_instruction">Tap on bounding box</string>
+
+    <!--Fragment below textview in support fragment activity-->
+    <string name="fragment_in_card_below">Map fragment container in card below</string>
+
+    <!--Offline manager button text-->
+    <string name="download_button_text">Download</string>
+    <string name="list_button_text">List</string>
+
+
+    <!--Location Component on Fragment below textview in test activity-->
+    <string name="location_component_fragment_text">User\'s current location on a map fragment</string>
+
+    <!-- Location change listening -->
+    <string name="new_location">New lat: %1$s New longitude: %2$s</string>
+
+    <!-- Settings dialog -->
+    <string name="settings_dialog_title">Settings</string>
+    <string name="settings_dialog_positive_button_text">Save</string>
+    <string name="settings_status_toast_settings_saved">Settings saved</string>
+    <string name="settings_dialog_negative_button_text">Cancel</string>
+    <string name="analytics_opt_out_textview">Opt out of analytics tracking</string>
+    <string name="login_or_signup_account_switch_text">Always show account login/creation screen</string>
+    <string name="log_out_of_account_button">Log out of Mapbox account</string>
+    <string name="log_out_toast_confirm">Successfully logged out</string>
+
+    <!--Basic offline map-->
+    <string name="basic_offline_deleted_toast">Yosemite offline map deleted</string>
+
+    <!--Marker strings for MarkerViewPluginActivity activity-->
+
+    <!--Marker strings for DrawMarkerActivity activity-->
+    <string name="draw_marker_options_title">Hello World!</string>
+    <string name="draw_marker_options_snippet">Welcome to my marker.</string>
+
+    <!--Marker strings for DirectionsActivity activity-->
+    <string name="directions_activity_toast_message">Route is %1$f meters long.</string>
+
+    <!--Marker strings for DirectionsActivity activity-->
+    <string name="snaking_directions_activity_error">Direction route retrieval failed</string>
+
+    <!--Strings for OfflineManager activity-->
+    <string name="dialog_title">Name new region</string>
+    <string name="dialog_message">Downloads the map region you currently are viewing</string>
+    <string name="dialog_positive_button">Download</string>
+    <string name="dialog_negative_button">Cancel</string>
+    <string name="dialog_toast">Region name cannot be empty.</string>
+    <string name="end_progress_success">Region downloaded successfully.</string>
+    <string name="toast_no_regions_yet">You have no regions yet.</string>
+    <string name="toast_region_deleted">Region deleted</string>
+    <string name="navigate_positive_button">Navigate to</string>
+    <string name="navigate_neutral_button_title">Delete</string>
+    <string name="navigate_negative_button_title">Cancel</string>
+    <string name="navigate_title">List</string>
+    <string name="region_name">Region %1$d</string>
+    <string name="set_region_name_hint">Enter name</string>
+
+    <!--SimpleOfflineMapActivity activity-->
+    <string name="simple_offline_end_progress_success">Region downloaded successfully.</string>
+
+    <!--FeatureCountActivity activity-->
+    <string name="feature_count_snackbar_feature_size">%1$d features in box</string>
+
+    <!--QueryFeatureActivity activity-->
+    <string name="query_feature_marker_title">Properties:</string>
+    <string name="query_feature_no_properties_found">No feature properties found</string>
+
+    <!--LocationPickerActivity activity-->
+    <string name="location_picker_select_location_button_cancel">Cancel</string>
+    <string name="location_picker_select_location_button_select">Select a location</string>
+    <string name="location_picker_dropped_marker_snippet_no_results">No results</string>
+    <string name="location_picker_place_name_result">Place name: %1$s</string>
+
+    <!-- Geocoding -->
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="geocode">Start geocode</string>
+    <string name="map_center">Map center</string>
+    <string name="no_results">No results</string>
+    <string name="choose_city_spinner">Choose city</string>
+    <string name="fill_in_a_value">Fill in a value</string>
+    <string name="geocoding_results">Raw geocoding results:</string>
+    <string name="make_valid_lat">Latitude must be between -90 and 90.
+    Longitude must be between -180 and 180.</string>
+
+    <!-- Infowindow SymbolLayer -->
+    <string name="capital">Capital: %1$s</string>
+    <string name="tap_on_marker_instruction">Tap on a marker</string>
+
+    <!-- Redo search -->
+    <string name="redo_search_button">Search in this area</string>
+    <string name="layer_not_found">The %1$s layer isn\'t part of this map style, so data might not appear</string>
+    <string name="move_the_map_and_research">Move the map and search again</string>
+
+    <!-- Place Picker plugin -->
+    <string name="selected_place_info">Selected location information:\n%1$s</string>
+    <string name="go_to_picker_activity">Go to place picker activity</string>
+
+    <!-- Static image -->
+    <string name="dark_style">Dark</string>
+    <string name="streets_style">Streets</string>
+    <string name="create_image">Create static image</string>
+    <string name="select_a_style">Select a style button first</string>
+</resources>
